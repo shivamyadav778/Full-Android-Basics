@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rating_bar">Rating Bar</string>
+    <string name="seek_bar">Seek Bar</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="date_pickers">Date Pickers</string>
+    <string name="date_picker_1">Date Picker 1</string>
+    <string name="date_picker_2">Date Picker 2\t\t</string>
+    <string name="explicit_intent">Explicit Intent</string>
+    <string name="if_condition">If Condition</string>
+    <string name="implicit_intent">Implicit Intent</string>
+    <string name="intents">Intents</string>
+    <string name="layouts">Layouts</string>
+    <string name="loops">Loops</string>
+    <string name="screen_orientation">Screen Orientation</string>
+    <string name="spinner">Spinner</string>
+    <string name="startactivity_for_result">StartActivity for Result</string>
+    <string name="switch_layout">Switch Layout</string>
+    <string name="time_picker">Time Picker</string>
+    <string name="toggle_layout">Toggle Layout</string>
+    <string name="while_loop">While Loop</string>
+</resources>
