@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actv_example"
+        android:title="@string/autocomplete_text_view"
+        android:icon="@drawable/home_18"/>
+    <item
+        android:id="@+id/area_of_square"
+        android:title="@string/area_of_square" />
+    <item
+        android:id="@+id/arithmetics_example"
+        android:title="@string/arithmetics" />
+    <item
+        android:id="@+id/recorder"
+        android:title="Audio Recorder"/>
+
+    <item
+        android:id="@+id/bars_example"
+        android:title="@string/bars">
+        <menu>
+            <item
+                android:id="@+id/progress_bar_example"
+                android:title="@string/progress_bar" />
+            <item
+                android:id="@+id/rating_bar_example"
+                android:title="@string/rating_bar" />
+            <item
+                android:id="@+id/seek_bar_example"
+                android:title="@string/seek_bar"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/blue1"
+        android:title="Bluetooth Controls"/>
+    <item
+        android:id="@+id/blue2"
+        android:title="See Bluetooth Devices"/>
+    <item
+        android:id="@+id/cam"
+        android:title="Camera"/>
+
+    <item
+        android:id="@+id/checkbox_example"
+        android:title="@string/checkbox" />
+    <item
+            android:id="@+id/contextmenu"
+            android:title="Context Menu"/>
+
+    <item
+        android:id="@+id/date_pickers_example"
+        android:title="@string/date_pickers" >
+        <menu >
+            <item
+                android:id="@+id/datepicker_example1"
+                android:title="@string/date_picker_1" />
+
+            <item
+                android:id="@+id/datepicker_example2"
+                android:title="@string/date_picker_2"/>
+    </menu>
+    </item>
+
+    <item android:id="@+id/externalstorage"
+        android:title="External Storage"/>
+
+    <item
+        android:id="@+id/email"
+        android:title="Email"/>
+
+   <item
+       android:id="@+id/intents_example"
+       android:title="@string/intents">
+        <menu>
+            <item
+                android:id="@+id/implicit_intent_example"
+                android:title="@string/implicit_intent" />
+            <item
+                android:id="@+id/explicit_example"
+                android:title="@string/explicit_intent"/>
+
+        </menu>
+   </item>
+
+
+    <item
+        android:id="@+id/call"
+        android:title="Phone Call"/>
+
+    <item
+        android:id="@+id/if_condition_example"
+        android:title="@string/if_condition" />
+    <item
+            android:id="@+id/internalstorageexample"
+            android:title="Internal Storage"/>
+
+    <item
+        android:id="@+id/loops_example"
+        android:title="@string/loops">
+        <menu>
+            <item
+                android:id="@+id/for_loop_example"
+                android:title="@string/for_loop" />
+            <item
+                android:id="@+id/while_loop_example"
+                android:title="@string/while_loop"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/layouts_example"
+        android:title="@string/layouts">
+        <menu>
+            <item
+                android:id="@+id/switch_layout"
+                android:title="@string/switch_layout"/>
+            <item
+                android:id="@+id/toggle_layout"
+                android:title="@string/toggle_layout"/>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/activity_main"
+        android:title="@string/main_activity" />
+    <item
+        android:id="@+id/mediaplayer"
+        android:title="Media Player"/>
+    <item
+        android:id="@+id/mediaplayer2"
+        android:title="Media Player 2"/>
+    <item
+            android:id="@+id/popmenu"
+            android:title="Pop Menu"/>
+
+    <item
+        android:id="@+id/screen_orientation_example"
+        android:title="@string/screen_orientation" />
+    <item
+        android:id="@+id/spinner_example"
+        android:title="@string/spinner"/>
+    <item
+    android:id="@+id/dbexample"
+    android:title="SQLite Database Write Record"/>
+
+    <item
+            android:id="@+id/service"
+            android:title="@string/services"/>
+
+    <item
+        android:id="@+id/startactivity_for_result"
+        android:title="@string/startactivity_for_result"/>
+
+    <item
+        android:id="@+id/sms"
+        android:title="SMS"/>
+
+    <item
+        android:id="@+id/time_picker_example"
+        android:title="@string/time_picker"/>
+    <item
+        android:id="@+id/tts"
+        android:title="Text To Speech"/>
+    <item
+        android:id="@+id/tts2"
+        android:title="@string/text_to_speech_2"/>
+    <item
+        android:id="@+id/videoview"
+        android:title="Video View"/>
+    <item
+        android:id="@+id/wifi"
+        android:title="Wifi Manager"/>
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/if1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="number|numberSigned"
+        android:numeric="signed" />
+
+    <EditText
+        android:id="@+id/minmaxtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtbox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/if1btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/button_oddeven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Odd Even Number" />
+
+    <Button
+        android:id="@+id/button_minmax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Maximum" />
+
+    <Button
+        android:id="@+id/button_minmax_eq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Maximum and Equal" />
+
+    <Button
+        android:id="@+id/Pos_neg_zero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Postive Negative Zero" />
+
+    <Button
+        android:id="@+id/max_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Maximum using Logical Operator" />
+
+    <Button
+        android:id="@+id/nestedifbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Max using Nested IF" />
+</LinearLayout>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="1032363"
+    android:versionName="3.0.1">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"
+        tools:ignore="CoarseFineLocation" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE"
+        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher"
+        android:roundIcon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+        android:name=".Screen_Orentation_Example"
+        android:screenOrientation="sensor"
+        android:exported="true"
+            tools:ignore="DiscouragedApi">
+    </activity>
+        <activity
+            android:name=".Arithmetic_Example"
+            android:screenOrientation="sensor"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Area_Square_Example"
+            android:screenOrientation="sensor"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".If_Condition_Example"
+            android:screenOrientation="fullSensor"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".For_Loop_Example"
+            android:screenOrientation="fullSensor"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".While_Loop_Example"
+            android:screenOrientation="fullSensor"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Toggle_Layout_Example"
+            android:screenOrientation="fullSensor"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Switch_Layout_Example"
+            android:screenOrientation="fullSensor"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Checkbox_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Spinner_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+        android:name=".Actv_Example"
+        android:screenOrientation="fullUser"
+        android:exported="true"
+        tools:ignore="DiscouragedApi">
+    </activity>
+        <activity
+    android:name=".Rating_Bar_Example"
+    android:screenOrientation="fullUser"
+    android:exported="true"
+            tools:ignore="DiscouragedApi">
+</activity>
+    <activity
+        android:name=".SeekBar_Example"
+        android:screenOrientation="fullUser"
+        android:exported="true"
+        tools:ignore="DiscouragedApi">
+    </activity>
+        <activity
+            android:name=".DatePicker_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Date_Picker_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Time_Picker_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Progress_Bar_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Implicit_Intent_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".First_Activity_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".Second_Activity_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".First_Activity1_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi" />
+        <activity
+            android:name=".Second_Activity2_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Main_menu"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Context_Menu_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Popup_Menu_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Internal_Storage_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".External_Storage_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Db_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Db_Record_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Service_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <service android:name=".MyService"/>
+        <activity
+            android:name=".Mediaplayer_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Mediaplayer_Example2"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Videoview_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Audiorecorder_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".TTS_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".TTS_Example2"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Phone_Call_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Sms_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Email_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Bluetooth_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Wifi_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Camera_Example"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+        <activity
+            android:name=".Bluetooth_Example2"
+            android:screenOrientation="fullUser"
+            android:exported="true"
+            tools:ignore="DiscouragedApi">
+        </activity>
+    </application>
+</manifest>

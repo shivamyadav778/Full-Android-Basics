@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="autocomplete_text_view">AutoComplete Text View</string>
+    <string name="area_of_square">Area of Square</string>
+    <string name="arithmetics">Arithmetics</string>
+    <string name="bars">Bars</string>
+    <string name="progress_bar">Progress Bar</string>
+    <string name="rating_bar">Rating Bar</string>
+    <string name="seek_bar">Seek Bar</string>
+    <string name="checkbox">CheckBox</string>
+    <string name="date_pickers">Date Pickers</string>
+    <string name="date_picker_1">Date Picker 1</string>
+    <string name="date_picker_2">Date Picker 2\t\t</string>
+    <string name="explicit_intent">Explicit Intent</string>
+    <string name="for_loop">For Loop</string>
+    <string name="if_condition">If Condition</string>
+    <string name="implicit_intent">Implicit Intent</string>
+    <string name="intents">Intents</string>
+    <string name="layouts">Layouts</string>
+    <string name="loops">Loops</string>
+    <string name="screen_orientation">Screen Orientation</string>
+    <string name="spinner">Spinner</string>
+    <string name="startactivity_for_result">StartActivity for Result</string>
+    <string name="switch_layout">Switch Layout</string>
+    <string name="time_picker">Time Picker</string>
+    <string name="toggle_layout">Toggle Layout</string>
+    <string name="while_loop">While Loop</string>
+    <string name="services">Services</string>
+    <string name="text_to_speech_2">Text To Speech 2</string>
+</resources>

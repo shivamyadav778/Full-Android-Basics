@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/while_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Number"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btn_while1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print using While Loop" />
+
+        <Button
+            android:id="@+id/btn_while2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print number using While Loop" />
+
+        <Button
+            android:id="@+id/btn_while3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print Odd numbers using While Loop" />
+
+        <Button
+            android:id="@+id/btn_while4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print Even numbers using While Loop" />
+
+        <Button
+            android:id="@+id/btn_while5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print sum of all numbers using While Loop" />
+
+        <Button
+            android:id="@+id/btn_while6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print Factorial of all numbers using While Loop" />
+
+        <Button
+            android:id="@+id/btn_while7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Print Table using While Loop" />
+
+        <TextView
+            android:id="@+id/textView_while"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</ScrollView>
