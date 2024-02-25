@@ -1,0 +1,19 @@
+{
+  "name": "full-android-basics",
+  "version": "1.0.0",
+  "description": "Full Android basic function examples in a single application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamyadav778/Full-Android-Basics.git"
+  },
+  "author": "Shivam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamyadav778/Full-Android-Basics/issues"
+  },
+  "homepage": "https://github.com/shivamyadav778/Full-Android-Basics#readme"
+}
